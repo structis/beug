@@ -11,28 +11,8 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
-/**
- * - Créer une simple calculatrice avec une méthode ajouter(),
- * 
- * - La méthode prend plusieurs nombres entiers séparés par des virgules,
- * 
- * - Si un nombre est négatif => Lancer une exception du type
- * NegativeNumberException
- * 
- * - Si la chaine contient un caractère qui n'est pas un chiffre => Lancer une
- * exception du type IllegalArgumentException
- * 
- * - Si la chaine est vide, retourner 0,
- * 
- * - Un nombre vide est un zéro,
- * 
- * - Les nombres supérieurs à 1000 seront igonorés.
- * 
- * @author Z.DRISSI
- * 
- */
 @RunWith(Parameterized.class)
-public class SmartCalculatorTest {
+public class ParameterizedSmartCalculatorTest {
 	
 	@Parameter(0)
 	public String numbers;
@@ -60,10 +40,4 @@ public class SmartCalculatorTest {
 		// Assert
 		assertEquals(expected, result);
 	}
-	
-	@Test
-	public void test() {
-		System.out.println(expected);
-	}
-
 }
