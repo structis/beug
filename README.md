@@ -1,2 +1,6 @@
-# beug
-Projets présentés lors des beugs
+# BEUG : Venez avec votre application, on code des TUs en live
+
+## Première partie
+
+
+## Deuxième partie
