@@ -22,6 +22,8 @@ Les requirements ci-dessous seront implémentés :
  
  - Les nombres supérieurs à 1000 seront igonorés.
 
+Outil d'affichage du Coverage : EclEmma 2.3.3 (http://www.eclemma.org/)
+
 ## Deuxième partie : Mocking
 
 Présentation du framework Mockito, test des différents cas d'utilisation.
