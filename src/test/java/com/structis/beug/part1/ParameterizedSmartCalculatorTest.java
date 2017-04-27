@@ -35,7 +35,7 @@ public class ParameterizedSmartCalculatorTest {
 		// Arrange
 
 		// Act
-		int result = SmartCalculator.add(numbers);
+		int result = SmartCalculator.somme(numbers);
 
 		// Assert
 		assertEquals(expected, result);
